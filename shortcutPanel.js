@@ -12,28 +12,56 @@
   });
   t.onclick=()=>{t.style.display="none";document.body.style.paddingTop="0"};
 
-  // ----- DATA -----
+  // ----- ALL LINKS -----
   let sections=[
     ["💻",[
       ["The Verge","https://www.theverge.com"],
       ["TechCrunch","https://techcrunch.com"],
       ["Wired","https://www.wired.com"],
-      ["CNET","https://www.cnet.com"]
+      ["CNET","https://www.cnet.com"],
+      ["Engadget","https://www.engadget.com"],
+      ["Ars Technica","https://arstechnica.com"],
+      ["MIT Tech Review","https://www.technologyreview.com"],
+      ["VentureBeat","https://venturebeat.com"],
+      ["Tom's Hardware","https://www.tomshardware.com"],
+      ["AnandTech","https://www.anandtech.com"],
+      ["GSMArena","https://www.gsmarena.com"],
+      ["Hacker News","https://news.ycombinator.com"],
+      ["Stack Overflow Blog","https://stackoverflow.blog"],
+      ["InfoQ","https://www.infoq.com"]
     ]],
     ["💰",[
       ["WakacyjniPiraci","https://www.wakacyjnipiraci.pl"],
       ["Urlaubspiraten","https://www.urlaubspiraten.de"],
-      ["Ferienpiraten","https://www.ferienpiraten.ch"]
+      ["Urlaubspiraten","https://www.urlaubspiraten.at"],
+      ["Ferienpiraten","https://www.ferienpiraten.ch"],
+      ["PiratinViaggio","https://www.piratinviaggio.it"],
+      ["ViajerosPiratas","https://www.viajerospiratas.es"],
+      ["VoyagesPirates","https://www.voyagespirates.fr"],
+      ["VakantiePiraten","https://www.vakantiepiraten.nl"],
+      ["TravelPirates","https://www.holidaypirates.com/us"]
     ]],
     ["🔍",[
       ["Google Travel","https://www.google.com/travel"],
       ["Skyscanner","https://www.skyscanner.com"],
-      ["Expedia","https://www.expedia.com"]
+      ["Expedia","https://www.expedia.com"],
+      ["Kayak","https://www.kayak.com"],
+      ["Travelocity","https://www.travelocity.com"],
+      ["eSky","https://www.esky.pl"],
+      ["Fly4Free","https://www.fly4free.com"]
     ]],
     ["🎇",[
+      ["Secret Flying","https://www.secretflying.com"],
+      ["Secret Escapes","https://www.secretescapes.com"],
+      ["Voyage‑Privé","https://www.voyage-prive.com"],
+      ["Lastminute","https://www.lastminute.com"],
+      ["OnTheBeach","https://www.onthebeach.co.uk"],
       ["GetYourGuide","https://www.getyourguide.com"],
       ["Viator","https://www.viator.com"],
-      ["Klook","https://www.klook.com"]
+      ["Klook","https://www.klook.com"],
+      ["Tiqets","https://www.tiqets.com"],
+      ["Headout","https://www.headout.com"],
+      ["Musement","https://www.musement.com"]
     ]]
   ];
 
